@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --off-white: #ffffff;
+    --green-dark: #085e0f;
+    --black: #000000;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--off-white);
+}
+
+/* header */
+
+#header-nav {
+
+    background: var(--black-blue);
+}
+
+#menu {
+  background: var(--black) !important; 
+  z-index: 1;
+}
+
+#menu a {
+  font-size: 18px;
+  /* font-weight: bold; */
+  color: var(--off-white);
+}
+
+.navbar-toggler-icon {
+  background-color: var(--green-dark);
+}
+
+
+
+
+
+
+
+#menu li {
+    transition: .3s;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#ul-background {
+    background: var(--black)
+}
+
+#ul-background a:hover {
+    color: var(--just-white);
+    background: var(--orange);
+    border-radius: 50px;
+}
+
+#menu a:hover {
+    color: var(--off-white);
+}
+
+#menu li:hover {
+    background: var(--green-dark);
+    border-radius: 50px;
+}
+
+
+
+.marca {
+  position: relative;
+  background-image: url("../../../assets/manos-sembrando.jpg");
+  /* background-image: linear-gradient(26deg, transparent 0%, #000 0% 85%, transparent 85%); */
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+
+}
+
+.marca::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.marca-contenido h1 {
+
+  color: var(--off-white);
+  font-weight: bold;
+  opacity: 2;
+}
+
+.marca-contenido h3 {
+  background-color: var(--green-dark);
+  color: var(--black);
+  font-weight: bold;
+  opacity: 1;
+}
+
+.marca-contenido {
+  position: absolute;
+}
+
+.marca-text {
+  left: 400px;
+  top: 150px;
+}
+
+.marca-title {
+  left: 450px;
+  top: 200px;
+  color: var(--green-dark);
+  font-size: 8rem;
+}
+
+/* collection */
+
+
+#tarjeta-servicio {
+  position: relative;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 1px 6px 2px rgba(0, 0, 0, 0.16);
+  background-color: var(--just-white);
+  transition: 0.5s;
+  width: 300px; /* Ancho de la tarjeta */
+  min-height: 400px; /* Altura mínima deseada */
+  height: auto; /* Ajustar automáticamente la altura según el contenido */
+  padding: 0 !important;
+}
+
+  
+  #tarjeta-servicio:hover {
+    transform: translateY(-4px);
+    box-shadow: 4px 4px 14px 4px rgba(0, 0, 0, 0.16)
+  }
+  
+  .tarjeta-images {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .images-1 {
+    background-image: url("../../../assets/contaminacion-aire.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .images-2 {
+    background-image: url("../../../assets/contaminacion-del-agua.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+  
+  .images-3 {
+    background-image: url("../../../assets/deforestacion.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .images-4 {
+    background-image: url("../../../assets/cambio-climatico.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .images-5 {
+    background-image: url("../../../assets/contaminacion-suelo.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .images-6 {
+    background-image: url("../../../assets/biodiversidad.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  
+
+  
+  .tarjeta-contenido {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Altura del contenido dentro de la tarjeta */
+    padding: 10px;
+    background-color: var(--black);
+    color: #fff;
+    transition: .2s;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+
+  
+
+  
+  .titulo-tarjeta h3 {
+    margin: 0;
+    margin-top: 0;
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  .cotiza-titulo {
+    left: 175px;
+  }
+  
+  .tarjeta-contenido p {
+    margin: 0;
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .parrafo-tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .parrafo-tarjeta p {
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+
+  .parrafo-tarjeta a {
+    text-align: center;
+  }
+
+
+
+.footer-pag-principal {
+  background-color: #000000;
+  color: var(--off-white);
+}
+
+.footer-pag {
+  position: relative;
+  background-image: url(../../assets/images/footer.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.footer-pag::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.contact-footer {
+    border-bottom: 2px solid var(--green-dark);
+    display: inline-block; 
+    padding-bottom: 4px; 
+}
+
+.call-button {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEEB00;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index:100;
+}
+
+.call-button i {
+  margin-right: 5px;
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+  .marca-title {
+    left: 250px;
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 1000px) {
+.marca-text {
+  left: 300px;
+}
+.marca-title {
+  left: 220px;
+  font-size: 6rem;
+}
+}
+
+@media (max-width: 800px) {
+.marca-text {
+  left: 200px;
+}
+.marca-title {
+  left: 150px;
+  font-size: 5rem;
+}
+}
+
+@media (max-width: 680px) {
+.marca-text {
+  left: 100px;
+}
+.marca-title {
+  font-size: 5rem;
+  left: 100px;
+}
+}
+
+@media (max-width: 580px) {
+.marca-text {
+  left: 30px;
+}
+.marca-title {
+  left: 60px;
+  font-size: 3.5rem;
+}
+}
+
+@media (max-width: 380px) {
+.marca-text {
+  left: 30px;
+}
+.marca-title {
+  left: 60px;
+  font-size: 3rem;
+}
+}

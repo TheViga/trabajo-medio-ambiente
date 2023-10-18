@@ -35,11 +35,6 @@ body {
 }
 
 
-
-
-
-
-
 #menu li {
     transition: .3s;
 }
@@ -150,42 +145,42 @@ body {
   }
 
   .images-1 {
-    background-image: url("../../../assets/contaminacion-aire.jpg");
+    background-image: url("../../assets/contaminacion-aire.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
   }
 
   .images-2 {
-    background-image: url("../../../assets/contaminacion-del-agua.jpg");
+    background-image: url("../../assets/contaminacion-del-agua.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
   }
   
   .images-3 {
-    background-image: url("../../../assets/deforestacion.jpg");
+    background-image: url("../../assets/deforestacion.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
   }
 
   .images-4 {
-    background-image: url("../../../assets/cambio-climatico.jpg");
+    background-image: url("../../assets/cambio-climatico.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
   }
 
   .images-5 {
-    background-image: url("../../../assets/contaminacion-suelo.jpg");
+    background-image: url("../../assets/contaminacion-suelo.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
   }
 
   .images-6 {
-    background-image: url("../../../assets/biodiversidad.jpg");
+    background-image: url("../../assets/biodiversidad.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 15px;
